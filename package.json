@@ -4,13 +4,16 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "preinstall": "node ./lib/access.js"
+    "test": "npm run postinstall",
+    "postinstall": "node ./lib/access.js"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/Samlv9/takebaby.git"
   },
   "author": "",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "sqlite3": "^3.1.4"
+  }
 }
