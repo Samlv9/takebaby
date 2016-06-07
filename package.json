@@ -1,6 +1,6 @@
 {
   "name": "takebaby",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -14,7 +14,6 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "python-shell": "^0.4.0",
     "shelljs": "^0.7.0",
     "sqlite3": "^3.1.4"
   }
